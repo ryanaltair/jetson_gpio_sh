@@ -4,10 +4,10 @@ use sysfs to read gpio on jetosn, only need bash
 privieled pod is no enough in kubernetes 
 should mount  `/sys/class/gpio` from host to innder pod as `/sys/class/gpio`
 
-## read D18
+## read P12
 do wiring
 
- ![read_D18](doc/read_D18.svg)
+ ![read_P12](doc/read_P12.svg)
 
 
-bash read_D18.sh
+bash read_P12.sh
